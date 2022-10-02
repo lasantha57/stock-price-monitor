@@ -1,0 +1,62 @@
+{
+  "prices": [
+    {
+      "id": 1,
+      "sourceId": 1,
+      "tickerId": 1,
+      "price": 139.87,
+      "time": "2022-06-01 09:01:03"
+    },
+    {
+      "id": 2,
+      "sourceId": 1,
+      "tickerId": 1,
+      "price": 139.87,
+      "time": "2022-06-01 08:59:27"
+    },
+    {
+      "id": 3,
+      "sourceId": 1,
+      "tickerId": 1,
+      "price": 139.87,
+      "time": "2022-06-01 08:59:01"
+    },
+    {
+      "id": 4,
+      "sourceId": 1,
+      "tickerId": 1,
+      "price": 139.87,
+      "time": "2022-06-01 08:58:14"
+    },
+    {
+      "id": 5,
+      "sourceId": 1,
+      "tickerId": 2,
+      "price": 139.87,
+      "time": "2022-06-01 08:58:02"
+    },
+    {
+      "id": 6,
+      "sourceId": 2,
+      "tickerId": 2,
+      "price": 139.87,
+      "time": "2022-06-01 08:59:02"
+    },
+    {
+      "id": 7,
+      "sourceId": 2,
+      "tickerId": 2,
+      "price": 139.87,
+      "time": "2022-06-01 08:58:14"
+    },
+    {
+      "id": 8,
+      "sourceId": 2,
+      "tickerId": 3,
+      "price": 139.87,
+      "time": "2022-06-01 08:58:02"
+    }
+  ],
+  "posts": [],
+  "users": []
+}

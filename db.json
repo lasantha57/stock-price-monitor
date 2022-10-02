@@ -1,0 +1,30 @@
+{
+  "priceSources": [
+    {
+      "id": 1,
+      "name": "SRC1"
+    },
+    {
+      "id": 2,
+      "name": "SRC2"
+    },
+    {
+      "id": 3,
+      "name": "SRC3"
+    }
+  ],
+  "tickers": [
+    {
+      "id": 1,
+      "name": "IBM UN"
+    },
+    {
+      "id": 2,
+      "name": "APPLE"
+    },
+    {
+      "id": 3,
+      "name": "MICROSOFT"
+    }
+  ]
+}
