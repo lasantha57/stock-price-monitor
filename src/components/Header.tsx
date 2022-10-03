@@ -56,7 +56,7 @@ export const Header: React.FC = () => {
 
   return (
     <AppBar position="static" sx={styles.backgroundBlack} component="header">
-      <Container disableGutters maxWidth={false}>
+      <Container disableGutters>
         <Toolbar>
           <Typography
             variant="h6"

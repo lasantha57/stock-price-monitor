@@ -72,7 +72,7 @@ const PriceMonitor: React.FC = () => {
   };
 
   return (
-    <Container maxWidth={false}>
+    <Container>
       <Box my={5}>
         <Box my={2}>
           <FormControl sx={{ width: '30%' }}>

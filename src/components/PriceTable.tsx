@@ -1,5 +1,6 @@
 import { Paper, Table, TableBody, TableCell, TableContainer,  TableHead, TableRow } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { Box } from '@mui/system';
 
 import { Price } from '../common/types';
 
@@ -25,12 +26,16 @@ interface PriceTableProps {
 export const PriceTable: React.FC<PriceTableProps> = ({ prices, sourceId, tickerId }) => {
 
   const filterPrices = prices.filter((price) => {
-    if (sourceId === -1 && tickerId === -1) return true;
+    if (sourceId === -1 || tickerId === -1) return false;
     return (price.sourceId === sourceId && price.tickerId === tickerId);
   });
 
   return (
     <TableContainer component={Paper}>
+      {filterPrices.length === 0 ? 
+      <Box my={3} display="flex" justifyContent="center" alignItems="center">
+        No Data
+      </Box> :
       <Table stickyHeader aria-label="A price table">
         <StyledTableHead>
           <TableRow>
@@ -49,6 +54,7 @@ export const PriceTable: React.FC<PriceTableProps> = ({ prices, sourceId, ticker
           ))}
         </TableBody>
       </Table>
+      }
     </TableContainer>
   );
 };
