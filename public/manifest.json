@@ -1,6 +1,6 @@
 {
-  "short_name": "Stock Price Monitor v0.0.1",
-  "name": "Stock Price Monitor v0.0.1",
+  "short_name": "Stock Price Monitor",
+  "name": "Stock Price Monitor",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
